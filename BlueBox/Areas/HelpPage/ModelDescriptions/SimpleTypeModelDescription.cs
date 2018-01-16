@@ -1,0 +1,6 @@
+namespace BlueBox.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}

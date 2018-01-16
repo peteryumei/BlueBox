@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox", "BlueBox\BlueBox.csproj", "{3BB30CCC-782C-4B06-8DD4-AE840D2ACD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Tests", "BlueBox.Tests\BlueBox.Tests.csproj", "{8B4A68E7-D309-49CA-B258-CC1AAF28AFB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BB30CCC-782C-4B06-8DD4-AE840D2ACD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB30CCC-782C-4B06-8DD4-AE840D2ACD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB30CCC-782C-4B06-8DD4-AE840D2ACD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB30CCC-782C-4B06-8DD4-AE840D2ACD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4A68E7-D309-49CA-B258-CC1AAF28AFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4A68E7-D309-49CA-B258-CC1AAF28AFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4A68E7-D309-49CA-B258-CC1AAF28AFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4A68E7-D309-49CA-B258-CC1AAF28AFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35BE4932-B131-406E-841F-15B005EEE6E3}
+	EndGlobalSection
+EndGlobal
