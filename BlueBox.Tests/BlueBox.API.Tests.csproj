@@ -109,9 +109,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BlueBox\BlueBox.csproj">
+    <ProjectReference Include="..\BlueBox\BlueBox.API.csproj">
       <Project>{3BB30CCC-782C-4B06-8DD4-AE840D2ACD30}</Project>
-      <Name>BlueBox</Name>
+      <Name>BlueBox.API</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
