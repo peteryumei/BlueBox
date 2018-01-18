@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.API", "BlueBox\BlueBox.API.csproj", "{3BB30CCC-782C-4B06-8DD4-AE840D2ACD30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.API.Tests", "BlueBox.Tests\BlueBox.API.Tests.csproj", "{8B4A68E7-D309-49CA-B258-CC1AAF28AFB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Tests", "BlueBox.Tests\BlueBox.Tests.csproj", "{8B4A68E7-D309-49CA-B258-CC1AAF28AFB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Models", "BlueBox.Models\BlueBox.Models.csproj", "{40338763-034E-4DCF-9B78-05DBFFA9F376}"
 EndProject
