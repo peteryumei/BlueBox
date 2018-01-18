@@ -11,12 +11,14 @@ namespace BlueBox.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
+        [AllowAnonymous]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
+        [AllowAnonymous]
         public string Get(int id)
         {
             return "value";
