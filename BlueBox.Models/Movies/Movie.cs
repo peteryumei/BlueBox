@@ -9,6 +9,10 @@ namespace BlueBox.Models.Movies
     class Movie
     {
         public int movie_id { get; set; }
-        public int movie_name { get; set; }
+        public string title { get; set; }
+        public string genre { get; set; }
+        public Decimal price { get; set; }
+        public DateTime releaseDate { get; set; }
+
     }
 }
