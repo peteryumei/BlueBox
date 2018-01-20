@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Tests", "BlueBox.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Models", "BlueBox.Models\BlueBox.Models.csproj", "{40338763-034E-4DCF-9B78-05DBFFA9F376}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Services", "BlueBox.Services\BlueBox.Services.csproj", "{C75FD45F-E9EB-4175-9F04-F8B270573D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Repositories", "BlueBox.Repositories\BlueBox.Repositories.csproj", "{03957E37-10E6-4AC4-A629-EA26AA84DCF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{40338763-034E-4DCF-9B78-05DBFFA9F376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40338763-034E-4DCF-9B78-05DBFFA9F376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40338763-034E-4DCF-9B78-05DBFFA9F376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75FD45F-E9EB-4175-9F04-F8B270573D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75FD45F-E9EB-4175-9F04-F8B270573D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75FD45F-E9EB-4175-9F04-F8B270573D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75FD45F-E9EB-4175-9F04-F8B270573D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03957E37-10E6-4AC4-A629-EA26AA84DCF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03957E37-10E6-4AC4-A629-EA26AA84DCF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03957E37-10E6-4AC4-A629-EA26AA84DCF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03957E37-10E6-4AC4-A629-EA26AA84DCF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

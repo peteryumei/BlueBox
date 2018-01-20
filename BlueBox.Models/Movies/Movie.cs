@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlueBox.Models.Movies
 {
-    class Movie
+    public class Movie
     {
         public int movie_id { get; set; }
         public string title { get; set; }
