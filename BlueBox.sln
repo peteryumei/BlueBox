@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Services", "BlueBox
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Repositories", "BlueBox.Repositories\BlueBox.Repositories.csproj", "{03957E37-10E6-4AC4-A629-EA26AA84DCF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBox.Common", "BlueBox.Common\BlueBox.Common.csproj", "{C66B05F4-86E3-488D-8D45-37612E833B8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{03957E37-10E6-4AC4-A629-EA26AA84DCF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03957E37-10E6-4AC4-A629-EA26AA84DCF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03957E37-10E6-4AC4-A629-EA26AA84DCF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66B05F4-86E3-488D-8D45-37612E833B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66B05F4-86E3-488D-8D45-37612E833B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66B05F4-86E3-488D-8D45-37612E833B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66B05F4-86E3-488D-8D45-37612E833B8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

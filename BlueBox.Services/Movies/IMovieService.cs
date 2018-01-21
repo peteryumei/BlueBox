@@ -11,5 +11,10 @@ namespace BlueBox.Services.Movies
     public interface IMovieService
     {
         Movie GetMovie(int movieId);
+        IEnumerable<Movie> GetMovie();
+        int AddMovie(Movie movie);
+        void DeleteMovie(int id);
+        void UpdateMovie(int id, Movie movie);
+
     }
 }

@@ -315,6 +315,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlueBox.Models\BlueBox.Models.csproj">
+      <Project>{40338763-034e-4dcf-9b78-05dbffa9f376}</Project>
+      <Name>BlueBox.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlueBox.Services\BlueBox.Services.csproj">
+      <Project>{c75fd45f-e9eb-4175-9f04-f8b270573d20}</Project>
+      <Name>BlueBox.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
