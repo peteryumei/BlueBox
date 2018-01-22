@@ -25,22 +25,22 @@ namespace BlueBox.Services.Movies
 
         public IEnumerable<Movie> GetMovie()
         {
-            return null;
+            return _movieRepository.GetMovie();
         }
 
         public int AddMovie(Movie movie)
         {
-            return 0;
+            return _movieRepository.AddMovie(movie);
         }
 
         public void DeleteMovie(int id)
         {
-
+            _movieRepository.DeleteMovie(id);
         }
 
         public void UpdateMovie(int id, Movie movie)
         {
-
+            _movieRepository.UpdateMovie(id, movie);
         }
 
     }

@@ -10,6 +10,14 @@ namespace BlueBox.Repositories.Movies
     public interface IMovieRepository
     {
         Movie GetMovie(int id);
-        
+
+        IEnumerable<Movie> GetMovie();
+
+        int AddMovie(Movie movie);
+
+        void UpdateMovie(int id, Movie movie);
+
+        void DeleteMovie(int id);
+
     }
 }
