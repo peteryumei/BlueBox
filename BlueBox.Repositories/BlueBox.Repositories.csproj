@@ -92,7 +92,10 @@
       <Name>BlueBox.Models</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Payment\" />
+    <Folder Include="Shipping\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Context\BlueBoxModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
